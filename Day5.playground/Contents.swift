@@ -26,15 +26,40 @@ MyApp will resize them all into thumbnails
 printHelp()
 
 //accepting parameters
+func square(number: Int) {
+    print(number * number)
+}
+square(number: 8)
 
 //returning values
+func square(number: Int) -> Int {
+    return number * number
+}
+let result = square(number: 8)
+print(result)
 
 //parameter labels
+func sayHello(to name: String) {
+    print("Hello, \(name)!")
+}
+sayHello(to: "Taylor")
 
 //omiting parameter labels
+func greet(_ person: String) {
+    print("Hello, \(person)!")
+}
+greet("Taylor")
 
 //default parameters
-
+func greet2(_ person: String, nicely: Bool = true) {
+    if nicely == true {
+        print("Hello, \(person)!")
+    } else {
+        print("Oh no, it's \(person) again...")
+    }
+}
+greet2("Taylor")
+greet2("Taylor", nicely: false)
 //variadic functions
 
 //writing throwing functions
