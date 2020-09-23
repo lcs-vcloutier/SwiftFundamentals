@@ -10,3 +10,37 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 import Cocoa
 
 var str = "Hello, playground"
+
+//writing functions
+func printHelp() {
+    let message = """
+Welcome to MyApp!
+
+Run this app inside a directory of images and
+MyApp will resize them all into thumbnails
+"""
+
+    print(message)
+}
+
+printHelp()
+
+//accepting parameters
+
+//returning values
+
+//parameter labels
+
+//omiting parameter labels
+
+//default parameters
+
+//variadic functions
+
+//writing throwing functions
+
+//running throwing functions
+
+//inout parameters
+
+
