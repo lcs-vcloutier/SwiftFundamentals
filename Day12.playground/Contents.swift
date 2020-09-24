@@ -10,3 +10,24 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 import Cocoa
 
 var str = "Hello, playground"
+
+//handling missing data
+
+//unwrapping optionals
+
+//unwrapping with guard
+
+//force unwrapping
+
+//implicitly unwrapped optionals
+
+//nil coalescing
+
+//optional chaining
+
+//optional try
+
+//failable initializers
+
+//typecasting
+

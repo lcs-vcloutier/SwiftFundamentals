@@ -10,3 +10,15 @@ Please [commit your work frequently](https://www.russellgordon.ca/cs/source-cont
 import Cocoa
 
 var str = "Hello, playground"
+
+//protocols
+
+//protocol inheritance
+
+//extensions
+
+//protocol extension
+
+//protocol oriented programming
+
+//protocol and extensions summary
