@@ -6,7 +6,7 @@ Remember to take the practice tests for each topic.
 \
 Please [commit your work frequently](https://www.russellgordon.ca/cs/source-control/introduction/using-source-control.pdf) and document your progress once each day in [Spaces](http://ca.spacesedu.com).
  */
-//dont entirely understand parameter labels and omitting
+// dont entirely understand parameter labels and omitting
 //sometimes define a function twice but use this as a reference
 
 import Cocoa
